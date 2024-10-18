@@ -244,14 +244,11 @@ class LoginPage(ft.Container):
             g.close()
         except Exception:
             self.show_error("El token no es válido. Por favor, intenta de nuevo.")
+            
 
     def show_error(self, message):
         if self.error_message:
             self.error_container.controls.clear()
-
-        self.error_container.controls.append(ft.Text(value=message, color=ft.colors.RED))
-        self.pwd_input.bgcolor = ft.colors.RED_600
-        self.update()
 
     def validate_credentials(self, e):
         username = self.username_input.value

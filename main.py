@@ -14,4 +14,6 @@ def main(page: ft.Page):
     # Inicia en la página de login
     switch_page(LoginPage(switch_page=switch_page, page=page))
 
-ft.app(target=main)
+if __name__ == "__main__":
+    ft.app(target=main)
+
