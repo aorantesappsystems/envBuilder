@@ -47,9 +47,8 @@ pip install -r requirements.txt
 Para ejecutar la aplicación, usa el siguiente comando:
 
 ```bash
-flet run [app_directory]
+flet run
 ```
-Reemplaza [app_directory] con la ruta de tu directorio de la aplicación.
 
 ## Contribuciones
 Si deseas contribuir al proyecto, por favor abre un issue o un pull request.
